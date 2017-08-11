@@ -79,15 +79,15 @@ func (d Decoder) Log() {
 		return
 	}
 
-	log.Println("CenterFreq:", d.Cfg.CenterFreq)
-	log.Println("SampleRate:", d.Cfg.SampleRate)
-	log.Println("DataRate:", d.Cfg.DataRate)
-	log.Println("ChipLength:", d.Cfg.ChipLength)
-	log.Println("PreambleSymbols:", d.Cfg.PreambleSymbols)
-	log.Println("PreambleLength:", d.Cfg.PreambleLength)
-	log.Println("PacketSymbols:", d.Cfg.PacketSymbols)
-	log.Println("PacketLength:", d.Cfg.PacketLength)
-	log.Println("Preamble:", d.Cfg.Preamble)
+	//log.Println("CenterFreq:", d.Cfg.CenterFreq)
+	//log.Println("SampleRate:", d.Cfg.SampleRate)
+	//log.Println("DataRate:", d.Cfg.DataRate)
+	//log.Println("ChipLength:", d.Cfg.ChipLength)
+	//log.Println("PreambleSymbols:", d.Cfg.PreambleSymbols)
+	//log.Println("PreambleLength:", d.Cfg.PreambleLength)
+	//log.Println("PacketSymbols:", d.Cfg.PacketSymbols)
+	//log.Println("PacketLength:", d.Cfg.PacketLength)
+	//log.Println("Preamble:", d.Cfg.Preamble)
 }
 
 // Decoder contains buffers and radio configuration.
